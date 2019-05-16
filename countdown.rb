@@ -5,4 +5,5 @@ def countdown
   counter -= 1
   while counter > 0 
   puts "#{counter} SECOND(S)"
+  sleep (1)
 end
